@@ -38,8 +38,8 @@ body {
   opacity: 0.8;
  }
  .profile-image {
-  width: 350px; /* Adjust as needed */
-  height: 350px; /* Adjust as needed */
-  object-fit: contain;  /* Changed from cover to contain */
-  object-position: center; /* Center the image within the container */
+  width: 350px; 
+  height: 350px; 
+  object-fit: contain;  
+  object-position: center; 
 }
