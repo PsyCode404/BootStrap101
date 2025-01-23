@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif; 
+}
+
+
+.intro {
+  background-color: #f8f9fa; 
+}
+
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; }
+
+
+#work-experience .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+.outro {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-primary {
+  font-weight: bold;
+  border-radius: 25px; 
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+ }
+ .profile-image {
+  width: 350px; /* Adjust as needed */
+  height: 350px; /* Adjust as needed */
+  object-fit: contain;  /* Changed from cover to contain */
+  object-position: center; /* Center the image within the container */
+}
